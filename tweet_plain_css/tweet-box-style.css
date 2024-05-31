@@ -1,0 +1,63 @@
+body {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.container-box {
+  padding: 12px;
+  border: 1px solid #cfd9de;
+  border-radius: 16px;
+  display: flex;
+  max-width: 425px;
+}
+
+.thumbnail img {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+
+.content-area {
+  margin-left: 12px;
+}
+
+.profile-name {
+  font-weight: bold;
+}
+
+.profile-metdata {
+  color: #71767b;
+  margin-left: 4px;
+}
+
+.content-message {
+  margin-top: 2px;
+  color: #0f1419;
+}
+
+.tweet-header {
+  display: flex;
+}
+
+.profile-actions {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-item {
+  display: flex;
+  align-items: center;
+}
+
+.action-text {
+  font-size: 13px;
+  color: #536471;
+  margin-left: 12px;
+}
+
+svg {
+  display: inline-block;
+  vertical-align: middle;
+}
